@@ -1,40 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-03-28T15:10:04Z" name="Default suite" finished-at="2019-03-28T15:10:21Z" duration-ms="17039">
+  <suite started-at="2019-04-02T10:50:38Z" name="Suite" finished-at="2019-04-02T10:52:30Z" duration-ms="111602">
     <groups>
     </groups>
-    <test started-at="2019-03-28T15:10:04Z" name="Default test" finished-at="2019-03-28T15:10:21Z" duration-ms="17039">
-      <class name="testcases.fnpextentReport">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:testcases.fnpextentReport@1af2d44a]" started-at="2019-03-28T15:10:04Z" name="setExtent" finished-at="2019-03-28T15:10:04Z" duration-ms="328" status="PASS">
+    <test started-at="2019-04-02T10:50:38Z" name="Test" finished-at="2019-04-02T10:52:30Z" duration-ms="111602">
+      <class name="testcases.tc2NegativeValidation">
+        <test-method signature="tc2NegativeValidation()[pri:0, instance:testcases.tc2NegativeValidation@bd4dc25]" started-at="2019-04-02T10:51:33Z" name="tc2NegativeValidation" finished-at="2019-04-02T10:52:30Z" duration-ms="56732" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="launchweb()[pri:0, instance:testcases.fnpextentReport@1af2d44a]" started-at="2019-03-28T15:10:04Z" name="launchweb" finished-at="2019-03-28T15:10:10Z" duration-ms="6000" status="PASS">
+        </test-method> <!-- tc2NegativeValidation -->
+      </class> <!-- testcases.tc2NegativeValidation -->
+      <class name="testcases.tc1PsitiveValidation">
+        <test-method signature="tc1PsitiveValidation()[pri:0, instance:testcases.tc1PsitiveValidation@4efc180e]" started-at="2019-04-02T10:50:38Z" name="tc1PsitiveValidation" finished-at="2019-04-02T10:51:33Z" duration-ms="54813" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchweb -->
-        <test-method signature="validlogin()[pri:0, instance:testcases.fnpextentReport@1af2d44a]" started-at="2019-03-28T15:10:10Z" name="validlogin" finished-at="2019-03-28T15:10:20Z" duration-ms="9649" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validlogin -->
-        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:testcases.fnpextentReport@1af2d44a]" started-at="2019-03-28T15:10:20Z" name="checkResult" finished-at="2019-03-28T15:10:20Z" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validlogin status=SUCCESS method=fnpextentReport.validlogin()[pri:0, instance:testcases.fnpextentReport@1af2d44a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResult -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:testcases.fnpextentReport@1af2d44a]" started-at="2019-03-28T15:10:20Z" name="endReport" finished-at="2019-03-28T15:10:21Z" duration-ms="1016" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- testcases.fnpextentReport -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tc1PsitiveValidation -->
+      </class> <!-- testcases.tc1PsitiveValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

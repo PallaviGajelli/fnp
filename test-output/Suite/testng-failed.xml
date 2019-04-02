@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test parallel="methods" name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.tc1PsitiveValidation">
+      <class name="testcases.searchingProduct">
         <methods>
-          <include name="tc1PsitiveValidation"/>
+          <include name="searchingproduct"/>
         </methods>
-      </class> <!-- testcases.tc1PsitiveValidation -->
-      <class name="testcases.tc2NegativeValidation">
-        <methods>
-          <include name="tc2NegativeValidation"/>
-        </methods>
-      </class> <!-- testcases.tc2NegativeValidation -->
+      </class> <!-- testcases.searchingProduct -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

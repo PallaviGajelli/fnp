@@ -10,8 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-import pages.fnpCartPage;
-import pages.homePageFactory;
+
 
 
 public class tc1PsitiveValidation {
@@ -29,7 +28,7 @@ public class tc1PsitiveValidation {
 			  driver.get("https://www.fnp.com");
 			  
 			 // homePageFactory home = new homePageFactory(driver);
-			  homePageFactory home =PageFactory.initElements(driver, homePageFactory.class);
+			  fnp.pages.homePageFactory home =PageFactory.initElements(driver, fnp.pages.homePageFactory.class);
 			  home.searchproduct("sleeping budha");
 			  
 			  Set<String>IDs= driver.getWindowHandles();
@@ -40,7 +39,7 @@ public class tc1PsitiveValidation {
 			  driver.switchTo().window(cartwindow);
 			 
 			  //fnpCartPage cart = new fnpCartPage(driver);  
-			  fnpCartPage cart=PageFactory.initElements(driver, fnpCartPage.class);
+			  fnp.pages.fnpCartPage cart=PageFactory.initElements(driver, fnp.pages.fnpCartPage.class);
 			  Thread.sleep(3000);
 			  cart.searchvalidaddress("Solapu");  
 			  cart.addonproducts();

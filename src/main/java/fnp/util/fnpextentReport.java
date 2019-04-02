@@ -1,4 +1,4 @@
-package testcases;
+package fnp.util;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,11 +30,11 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import junit.framework.Assert;
+
 
 import org.apache.commons.io.FileUtils;
 
-import pages.fnpCartPage;
+
 
 public class fnpextentReport {
 
@@ -79,7 +79,7 @@ public class fnpextentReport {
 		@Test                       
 		private static void validlogin() throws InterruptedException 
 		{
-		    fnpCartPage cart=PageFactory.initElements(driver, fnpCartPage.class);
+		    fnp.pages.fnpCartPage cart=PageFactory.initElements(driver, fnp.pages.fnpCartPage.class);
 			cart.validloginfnp("testmeapp1@gmail.com","test@2018");
 			driver.close();
 		}
