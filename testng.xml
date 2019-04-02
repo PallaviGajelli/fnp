@@ -5,6 +5,7 @@
     <classes>
        <class name="testcases.tc1PsitiveValidation"/>
        <class name="testcases.tc2NegativeValidation"/>
+        <class name="testcases.searchingProduct"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
